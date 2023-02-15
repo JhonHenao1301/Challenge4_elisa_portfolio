@@ -1,0 +1,51 @@
+
+.social-section .wrapper {
+    margin: 16px 16px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 16px;
+  gap: 16px;
+}
+
+.social-section img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.social {
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .social-section .wrapper {
+      display: flex;
+      flex-direction: row;
+      gap: 32px;
+      margin: 0;
+    }
+
+    .hero-description {
+      display: flex;
+      flex-direction: column;
+      order: 1;
+      max-inline-size: 450px;
+      gap: 16px;
+    }
+
+    .hero-image {
+      order: 2;
+      flex: 1;
+      max-inline-size: 650px;
+      min-inline-size: 250px;
+      text-align: center;
+    }
+
+}

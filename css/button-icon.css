@@ -1,0 +1,14 @@
+
+.button-icon {
+    padding: 10px;
+    border-radius: 4px;
+    background: var(--green);
+    border: 2px solid var(--black);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+  
+.button-icon img {
+color: var(--black);
+}
